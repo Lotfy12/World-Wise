@@ -6,10 +6,10 @@ This project is essentially a trip planner or to-do list manager with a focus on
 
 ## 🛠️ Technologies Used
 
-- **React.js**     as the React framework
+- **React.js**     is the React framework
 - **CSS Modules**  for styling
-- **React Router** for navigate between pages
-- **Context API**  for manageing states
+- **React Router** for navigating between pages
+- **Context API**  for managing  states
 - **Json-Server**  for Store data
 - **leaflet**      for Showing Map
 
@@ -86,10 +86,7 @@ yarn add leaflet leaflet
 
 </div>
 
-
-
-
-
+---
 
 
 
@@ -99,4 +96,13 @@ yarn add leaflet leaflet
 )
 
 
+
+---
+An important note 🔔
+
+I used Json-Server to handle the data (Add-Delete) just to learn. So when you see the demo, you can not add any data, so to handle this problem, you can enter the command
+```
+npm run server
+```
+You will see the fetched data, which is stored in cities.json
 ---
